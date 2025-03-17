@@ -1,0 +1,97 @@
+/* General settings */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Chat container */
+.chat-container {
+    width: 100%;
+    max-width: 500px;
+    height: calc(100vh - 70px); /* Calculate chatbox height by subtracting navbar height */
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+/* Chat box */
+.chat-box {
+    flex: 1;
+    overflow-y: auto;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Message styles */
+.message {
+    padding: 3%;
+    margin-bottom: 3%;
+    border-radius: 20px;
+    max-width: 70%;
+    word-wrap: break-word;
+}
+
+/* User message */
+.message.user {
+    background-color: #007bff;
+    color: #ffffff;
+    margin-left: auto;
+    text-align: right;
+}
+
+/* Other user message */
+.message.other {
+    background-color: #e5e5ea;
+    color: #000000;
+    margin-right: auto;
+    text-align: left;
+}
+
+/* No messages text */
+.message.no-messages {
+    text-align: center;
+    padding: 20px;
+    color: #888;
+}
+
+/* Message's time style */
+.time {
+    font-size: 12px;
+    text-align: right;
+    margin-left: auto;
+    margin-top: 5%;
+}
+
+/* Input field styles */
+.input-group {
+    flex: 1;
+}
+
+.input-group input {
+    border-radius: 20px;
+    outline: none;
+}
+
+.input-group .btn {
+    border-radius: 20px;
+}
+
+/* Media Query for mobile and desktop */
+@media (max-width: 768px) {
+    .chat-container {
+        height: calc(100vh - 60px); /* Smaller height for mobile */
+    }
+}
+
+@media (min-width: 769px) {
+    .chat-container {
+        height: calc(100vh - 70px); /* Standard height for desktop */
+    }
+}

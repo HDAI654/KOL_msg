@@ -1,4 +1,4 @@
-const API_URL = 'https://67d54ef7d2c7857431effb81.mockapi.io/api/kol-msg-messages/users'; // 👈 API for login
+const API_URL = 'https://67d81af29d5e3a10152d6a97.mockapi.io/kol-msg/users'; // 👈 API for login
 
 async function handleLogin(event) {
     event.preventDefault(); // Prevent page refresh

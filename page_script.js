@@ -1,4 +1,4 @@
-const API_URL = 'https://67d54ef7d2c7857431effb81.mockapi.io/api/kol-msg-messages/messages';
+const API_URL = 'https://67d81af29d5e3a10152d6a97.mockapi.io/kol-msg/messages';
 
 // Store messages in a global array
 let messagesList = [];

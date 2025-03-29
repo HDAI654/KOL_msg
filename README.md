@@ -31,14 +31,13 @@ KOL_msg is a simple real-time chat application built with HTML, CSS, and JavaScr
 ```plaintext
 KOL_msg/
 ├── bootstrap.min.css   # Bootstrap for styling
-├── db.json             # Mock user data
 ├── index.html          # Main chat interface
 ├── login.html          # Login page
-├── login.css           # Styling for login page
-├── login.js            # Handles login and session cookies
-├── messages.json       # Messages storage (if needed)
-├── script.js           # Handles chat functionality
-├── style.css           # Styling for chat interface
+├── login_style.css           # Styling for login page
+├── login_script.js            # Handles login and session cookies
+├── page_script.js           # Handles chat functionality
+├── page_style.css           # Styling for chat interface
+├── LICENSE             # License of project
 └── README.md           # Project documentation
 ```
 
@@ -59,8 +58,8 @@ cd KOL_msg
 
 ## 💻 Usage
 1. go to address   https://hdai654.github.io/KOL_msg   and login 
-- username : Hamed
-- password : Hamedxxc8
+- username : TestUser
+- password : testuser123
 2. and enjoy to use this app
 
 OR
